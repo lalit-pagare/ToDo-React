@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+html{
+  font-family: cursive;
+  font-size: 10px;
+}
+h1{
+  font-size: 6rem;
+}
+label{
+  font-size: 2vh;
+}
+input{
+  outline: none;
+  height: 2rem;
+  width: 20vh;
+}
+.add-task{
+  font-size: 1.2rem;
+  border: none;
+  width: 8rem;
+  height: 2.5rem;
+  /* border-radius: 1 rem; */
+  background-color: #495057;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.add-task:hover{
+  background-color: #212529;
+}
+.btnL:hover{
+  background-color: #212529;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  margin: 1rem 5rem;
+
+}
+h3{
+  list-style: decimal;
+  font-size: 1.5rem;
+  font-weight: 100;
+  border: 1px solid #495057;
+  border-radius: 2rem;
+  padding: 1rem;
+  /* padding-left: 1rem; */
+  
+}
+.btnL{
+  background-color: #494949;
+  padding: 1rem 2rem;
+  border: 1px solid #494949;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  box-sizing: border-box;
+  /* padding: 20rem; */ 
+}
+.RMA{
+  display: flex;
+  filter: brightness(0) invert(1);
+  padding-left: 35%;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+img{
+  padding-left: 2rem;
+
+}
+.tasks{
+  margin: 8px;
+}
+
+.tasks{
+  display: flex;
+}
+.tasks1{
+  display: flex;
+  justify-content: center;
+}
